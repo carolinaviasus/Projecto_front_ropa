@@ -35,11 +35,11 @@ export const Header = () => {
       </ul>
 
       <ul>
-        <li>
+        <li >
           <Link to="/"></Link>
         </li>
         <li>
-          <Link to="/productos">Registrate</Link>
+          <Link to="/register">Registrate</Link>
         </li>
       </ul>
 
@@ -48,7 +48,7 @@ export const Header = () => {
           <Link to="/"></Link>
         </li>
         <li>
-          <Link to="/productos">Ingresa</Link>
+          <Link to="/login">Ingresa</Link>
         </li>
       </ul>
       

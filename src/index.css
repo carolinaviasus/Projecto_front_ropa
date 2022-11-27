@@ -402,9 +402,55 @@ header ul li a{
     font-size: 1.4rem;
     color: #30333a;
 }
+/* ------------- REGISTER --------- */
 
 
+.card-form {
+    
+    padding: 70px 60px 65px 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-block: 0px;
+    
 
+    box-shadow:
+       inset 0 -30em 3em rgba(0, 0, 0, 0.1),
+             0 0  0 2px rgb(162, 65, 175),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.card-form button{
+    background-color: rgb(162, 65, 175);
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.card-form h2{
+    font-weight: 800;
+    font-size: 3.3rem;
+    color: #1a202c;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.mb-3{
+    font-weight: 800;
+    font-size: 2rem;
+    color: #1a202c;
+    font-family: Helvetica, sans-serif;
+    padding: 40px 0px 6px ;
+    
+}
+/* .cuerpore{
+    
+    padding: 15rem 0 10rem 0;
+    background-image: url(./images/pexels-mica-asato-1082528.jpg);
+} */
 /* ------------- RELACIONADO --------- */
 .relacionados{
     text-align: center;
@@ -422,6 +468,42 @@ header ul li a{
 }
 
 
+/* prueba de invalides */
+input:invalid:required{
+    border: 2px dashed rgb(0, 132, 255);
+}
+input:valid{
+    border: 2px solid black;
+}
+
+/* //----INGRESO ----------*/
+
+.form-demo .card {
+    min-width: 450px;
+    margin: 0px 50px 0px 50px;
+    box-shadow:
+    inset 0 -30em 3em rgba(0, 0, 0, 0.1),
+          0 0  0 2px rgb(162, 65, 175),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.form-demo .card form {
+    margin-top: 2rem;
+}
+.form-demo .card .field {
+    margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+    .form-demo .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-demo .card {
+        width: 100%;
+        min-width: 0;
+    }
+}
+             
 /* -------------MEDIA -------------*/
 @media only screen and (max-width: 1000px){
     .carrito__item{

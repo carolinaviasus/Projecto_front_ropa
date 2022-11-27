@@ -44,13 +44,13 @@ const RegisterForm = () => {
   return (
     <>
       <div className="card card-form">
-        <h2>RegisterForm</h2>
+        <h2>Registrate </h2>
 
         {/* inicio del formulario de registro */}
         <form action="" onSubmit = { handleEnviar }>
           <div className="mb-3">
             <label htmlFor="exampleFormControlInput1" className="form-label">
-              First Name:
+              Nombres:
             </label>
             <input
               type="text"
@@ -64,7 +64,7 @@ const RegisterForm = () => {
           </div>
           <div className="mb-3">
             <label htmlFor="exampleFormControlInput1" className="form-label">
-              Last Name:
+              Apellidos:
             </label>
             <input
               type="text"
